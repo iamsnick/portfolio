@@ -1,5 +1,7 @@
 'use client'
 
+export const runtime = 'edge';
+
 import { projects } from '@/lib/data'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
